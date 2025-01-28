@@ -1,0 +1,52 @@
+name: sample
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/  # This assumes you have your SVG or icon assets in the assets/icons directory
+
+  # If you're using custom fonts, you can add them like this:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-ExtraLight.ttf
+          weight: 100
+        - asset: fonts/Poppins-Thin.ttf
+          weight: 200
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 300
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 600
+        - asset: fonts/Poppins-ExtraBold.ttf
+          weight: 700
+        - asset: fonts/Poppins-Black.ttf
+          weight: 800
+
+  # Optional: If you have image assets, you can add them here as well
+  # assets:
+  #   - assets/images/
+
+  # If you want to use other packages to load assets, you can add them in the dependencies section.
